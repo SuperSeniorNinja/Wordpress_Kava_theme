@@ -1,0 +1,74 @@
+.nanoverse-modal {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nanoverse-modal-close {
+    display: none;
+    cursor: pointer;
+}
+.nanoverse-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 15px 0 #eeeeee;
+}
+.nanoverse-modal-wallets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+.nanoverse-modal-wallet {
+    height: 230px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    flex-direction: column;
+}
+.nanoverse-modal-wallet:hover {
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 15px 0 #eeeeee;
+}
+.nanoverse-modal-header {
+    font-size: 20px;
+}
+.nanoverse-modal-wallet-connected {
+    position: absolute;
+    color: #4cbb17;
+    top: 160px;
+    left: 120px;
+}
+.nanoverse-modal-account {
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.nanoverse-modal-cancel {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.elementor-button-content-wrapper {
+    cursor: pointer;
+}

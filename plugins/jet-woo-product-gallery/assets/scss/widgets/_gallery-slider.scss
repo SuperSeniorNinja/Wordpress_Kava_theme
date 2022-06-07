@@ -1,0 +1,145 @@
+.swiper-gallery-top,
+.swiper-gallery-thumb {
+	position: relative;
+	width: 100%;
+}
+
+.jet-woo-product-gallery-slider,
+.jet-woo-swiper-gallery-thumbs {
+	&.swiper-container {
+		width: 100%;
+		position: static;
+	}
+
+	.jet-swiper-nav {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		z-index: 2;
+		transition: all 200ms linear;
+		top: 50%;
+		transform: translate(0, -50%);
+
+		&.jet-swiper-button-prev {
+			left: 10px;
+			right: auto;
+		}
+		&.jet-swiper-button-next {
+			right: 10px;
+			left: auto;
+		}
+
+		&.swiper-button-disabled {
+			cursor: not-allowed;
+		}
+	}
+}
+
+.jet-woo-swiper-horizontal {
+	display: flex;
+
+	&.jet-woo-swiper-h-pos-top {
+		flex-direction: column-reverse;
+
+		.jet-woo-product-gallery-slider {
+			.swiper-pagination {
+				top: 5px;
+				bottom: auto;
+			}
+		}
+	}
+
+	&.jet-woo-swiper-h-pos-bottom {
+		flex-direction: column;
+	}
+
+	.jet-woo-swiper-control-nav {
+		.swiper-wrapper {
+			display: inline-flex;
+			max-width: max-content;
+		}
+	}
+
+	.jet-woo-product-gallery-slider {
+		&.swiper-container-fade,
+		&.swiper-container-flip {
+			.jet-woo-product-gallery__image-item:not( .swiper-slide-active ) {
+				opacity: 0 !important;
+			}
+		}
+	}
+}
+
+.jet-woo-swiper-vertical {
+	display: flex;
+
+	&.jet-woo-swiper-v-pos-left {
+		flex-direction: row-reverse;
+
+		.jet-woo-product-gallery-slider {
+			.swiper-pagination {
+				left: 10px;
+				right: auto;
+			}
+
+			.rtl & {
+				.swiper-pagination {
+					right: 10px;
+					left: auto;
+				}
+			}
+		}
+	}
+
+	&.jet-woo-swiper-v-pos-right {
+		.jet-woo-product-gallery-slider {
+			.rtl & {
+				.swiper-pagination {
+					left: 10px;
+					right: auto;
+				}
+			}
+		}
+	}
+}
+
+.jet-woo-product-gallery-slider {
+	.swiper-wrapper .swiper-slide {
+		will-change: unset;
+	}
+
+	&.swiper-container-vertical {
+		transition: .3s;
+
+		> .swiper-wrapper .swiper-slide-active {
+			height: auto !important;
+		}
+	}
+
+	.swiper-pagination {
+		&-bullet {
+			opacity: 1;
+		}
+	}
+}
+
+.jet-woo-swiper-gallery-thumbs {
+	.swiper-slide {
+		opacity: 0.4;
+		overflow: hidden;
+
+		&-thumb-active {
+			opacity: 1;
+		}
+
+		img {
+			display: block;
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>weMail Email Campaign</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- weMail styles -->
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- font-url -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="" id="customizer-primary-style">
+    <style id="global-element-style"></style>
+
+    <!-- litmus styles -->
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+        table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+        img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+        /* RESET STYLES */
+        img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+        table{border-collapse: collapse !important;}
+        body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* MOBILE STYLES */
+        @media screen and (max-width: 525px) {
+
+            /* ALLOWS FOR FLUID TABLES */
+            .wrapper {
+              width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+            .mobile-hide {
+              display: none !important;
+            }
+
+            .img-max {
+              max-width: 100% !important;
+              width: 100% !important;
+              height: auto !important;
+            }
+
+            /* FULL-WIDTH TABLES */
+            .responsive-table {
+              width: 100% !important;
+            }
+
+        }
+
+        /* ANDROID CENTER FIX */
+        div[style*="margin: 16px 0;"] { margin: 0 !important; }
+    </style>
+</head>
+<body style="margin: 0 !important; padding: 0 !important;">
+    <div class="hidden" id="wemail-customizer" v-cloak :style="{ paddingTop: template.globalCss.paddingTop, paddingBottom: template.globalCss.paddingBottom, backgroundColor: template.globalCss.backgroundColor}">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" :style="template.globalCss">
+            <tr v-for="(section, sectionIndex) in template.sections" :key="section.name" :class="['section section-' + section.name]">
+                <td align="center" :style="section.style">
+                    <table class="responsive-table section-wrapper" :style="section.wrapperStyle" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody :data-section-index="sectionIndex" :class="[!section.contents.length ? 'empty-content-zone': '']">
+                            <tr v-if="!section.contents.length">
+                                <td>
+                                    <div class="content-dropzone-placeholder">
+                                      {{ templateSections[section.name] }} - {{ __('Drop content here') }}
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr
+                                v-for="(content, contentIndex) in section.contents"
+                                :key="content.id"
+                                data-source="iframe"
+                                :data-content-type="content.type"
+                                :data-section-index="sectionIndex"
+                                :data-content-index="contentIndex"
+                                class="content-wrapper"
+                            >
+                                <td>
+                                    <component
+                                        :is="'content-' + content.type"
+                                        :content="content"
+                                        :global-css="template.globalCss"
+                                        :customizer="customizerObj"
+                                    ></component>
+                                    <div v-if="!isPreview && section.name !== 'brand'" class="control-buttons">
+                                        <p>
+                                            <i class="fa fa-arrows move"></i>
+                                            <i
+                                                :class="['fa fa-arrow-up move-up', (sectionIndex === 0 && contentIndex === 0) ? 'disabled': '']"
+                                                :data-content-type="content.type"
+                                                :data-section-index="sectionIndex"
+                                                :data-content-index="contentIndex"
+                                            ></i>
+                                            <i
+                                                :class="['fa fa-arrow-down move-down', ((sectionIndex === template.sections.length - 1) && (contentIndex === section.contents.length - 1)) ? 'disabled' : '']"
+                                                :data-content-type="content.type"
+                                                :data-section-index="sectionIndex"
+                                                :data-content-index="contentIndex"
+                                            ></i>
+                                            <i class="fa fa-pencil" @click="editContent(sectionIndex, contentIndex)"></i>
+                                            <i class="fa fa-clone" @click="cloneContent(sectionIndex, contentIndex)"></i>
+                                            <i class="fa fa-trash-o" @click="deleteContent(sectionIndex, contentIndex)"></i>
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div v-if="!isPreview" id="section-highlighter" :style="highlighterStyle">&nbsp;</div>
+    </div>
+</body>
+</html>

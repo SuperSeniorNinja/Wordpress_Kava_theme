@@ -1,0 +1,4 @@
+2022-05-17T17:16:15+00:00 CRITICAL Maximum execution time of 180 seconds exceeded in /srv/data/web/vhosts/odyssea.io/htdocs/wp-includes/class-wp-image-editor-imagick.php on line 375
+
+2022-05-17T17:18:50+00:00 CRITICAL Maximum execution time of 180 seconds exceeded in /srv/data/web/vhosts/odyssea.io/htdocs/wp-includes/class-wp-image-editor-imagick.php on line 375
+

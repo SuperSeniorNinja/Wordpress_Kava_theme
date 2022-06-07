@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "fl-budicons-free";
+    src: url(../../assets/fonts/fl-budicons-free.eot);
+    src: url(../../assets/fonts/fl-budicons-free.eot#iefix) format("embedded-opentype"),
+    url(../../assets/fonts/fl-budicons-free.woff) format("woff"),
+    url(../../assets/fonts/fl-budicons-free.ttf) format("truetype"),
+    url(../../assets/fonts/fl-budicons-free.svg) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.fl-budicons-free-ico,
+[class^="fl-budicons-free-"]:before, [class*=" fl-budicons-free-"]:before,
+[class^="fl-budicons-free-"]:after, [class*=" fl-budicons-free-"]:after {   
+    font-family: 'fl-budicons-free';
+    font-size: inherit;
+    font-weight: 400;
+    font-style: normal;
+}

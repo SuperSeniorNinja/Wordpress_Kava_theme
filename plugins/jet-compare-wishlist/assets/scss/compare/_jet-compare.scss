@@ -1,0 +1,124 @@
+.jet-cw {
+	.jet-compare-table {
+		width: 100%;
+		table-layout: fixed;
+		border-collapse: collapse;
+		border-spacing: 0;
+		background-color: transparent;
+		
+		tr,
+		td {
+			border: 1px none;
+		}
+		
+		.jet-compare-item--empty {
+			text-align: center;
+		}
+
+		&-difference-controls-wrapper {
+			margin-bottom: 10px;
+			display: flex;
+			justify-content: flex-end;
+			gap: 5px;
+		}
+
+		.jet-cw-add-to-cart {
+			.added_to_cart.wc-forward{
+				display: none !important;
+			}
+		}
+	}
+
+	.jet-compare-difference-control {
+		position: relative;
+		transition: all 0.3s;
+		max-width: 100%;
+		cursor: pointer;
+
+		&__plane {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+
+			&-normal{
+				opacity: 1;
+				z-index: 1;
+			}
+
+			&-hover {
+				opacity: 0;
+				z-index: 3;
+			}
+		}
+
+		&__state {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+
+			&-normal {
+				opacity: 1;
+				z-index: 2;
+				position: relative;
+				width: 100%;
+				height: 100%;
+				gap: 5px;
+			}
+
+			&-hover {
+				opacity: 0;
+				z-index: 4;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				gap: 5px;
+			}
+
+			&-normal,
+			&-hover {
+				.jet-cw-icon {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+			}
+		}
+
+		&.active {
+			.jet-compare-difference-control__plane,
+			.jet-compare-difference-control__state {
+				&-normal {
+					opacity: 0;
+				}
+
+				&-hover {
+					opacity: 1;
+				}
+			}
+		}
+
+		&.disable {
+			pointer-events: none;
+		}
+	}
+}
+
+[data-elementor-device-mode="mobile"] .jet-compare-table-responsive-mobile,
+[data-elementor-device-mode="tablet"] .jet-compare-table-responsive-tablet,
+[data-elementor-device-mode="desktop"] .jet-compare-table-responsive-desktop {
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	
+	.jet-compare-table {
+		table-layout: auto;
+	}
+}

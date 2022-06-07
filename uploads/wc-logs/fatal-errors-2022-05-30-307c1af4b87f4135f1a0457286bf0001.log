@@ -1,0 +1,18 @@
+2022-05-30T17:39:18+00:00 CRITICAL Uncaught PharException: tar-based phar "/srv/data/web/vhosts/odyssea.io/htdocs/wp-content/uploads/1650309070-2aff4b8c9b0ea8de125ea6256b2353417638db98/plugins/woocommerce.tar" cannot be created, filename "packages/woocommerce-blocks/build/product-add-to-cart--product-button--product-category-list--product-image--product-price--product-r--a0326d00.js" is too long for tar file format in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php:205
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(205): PharData->buildFromDirectory()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(146): Siteground_Migrator_Files_Service->create_encrypted_archive()
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator- in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php on line 205
+
+2022-05-30T17:46:00+00:00 CRITICAL Uncaught PharException: tar-based phar "/srv/data/web/vhosts/odyssea.io/htdocs/wp-content/uploads/1650309070-2aff4b8c9b0ea8de125ea6256b2353417638db98/plugins/woocommerce.tar" cannot be created, filename "packages/woocommerce-blocks/build/product-add-to-cart--product-button--product-category-list--product-image--product-price--product-r--a0326d00.js" is too long for tar file format in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php:205
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(205): PharData->buildFromDirectory()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(146): Siteground_Migrator_Files_Service->create_encrypted_archive()
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator- in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php on line 205
+
+2022-05-30T17:52:32+00:00 CRITICAL Uncaught PharException: tar-based phar "/srv/data/web/vhosts/odyssea.io/htdocs/wp-content/uploads/1650309070-2aff4b8c9b0ea8de125ea6256b2353417638db98/plugins/woocommerce.tar" cannot be created, filename "packages/woocommerce-blocks/build/product-add-to-cart--product-button--product-category-list--product-image--product-price--product-r--a0326d00.js" is too long for tar file format in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php:205
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(205): PharData->buildFromDirectory()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php(146): Siteground_Migrator_Files_Service->create_encrypted_archive()
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator- in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/siteground-migrator/includes/class-siteground-migrator-files-service.php on line 205
+

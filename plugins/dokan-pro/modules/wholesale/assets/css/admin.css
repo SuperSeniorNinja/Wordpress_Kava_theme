@@ -1,0 +1,52 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/less-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./modules/wholesale/assets/src/js/admin/components/WholesaleCustomer.vue?vue&type=style&index=0&lang=less& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.wholesale-customer-list .image {
+  width: 10%;
+}
+.wholesale-customer-list .full_name {
+  width: 25%;
+}
+.wholesale-customer-list .email {
+  width: 20%;
+}
+.wholesale-customer-list td.full_name img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 1px;
+  width: 24px;
+  height: auto;
+}
+.wholesale-customer-list td.full_name strong {
+  display: block;
+  margin-bottom: 0.2em;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+.wholesale-customer-list table td.full_name,
+  .wholesale-customer-list table td.enabled {
+    display: table-cell !important;
+}
+.wholesale-customer-list table th:not(.check-column):not(.full_name):not(.enabled) {
+    display: none;
+}
+.wholesale-customer-list table td:not(.check-column):not(.full_name):not(.enabled) {
+    display: none;
+}
+.wholesale-customer-list table th.column,
+  .wholesale-customer-list table table td.column {
+    width: auto;
+}
+.wholesale-customer-list table td.manage-column.column-cb.check-column {
+    padding-right: 15px;
+}
+.wholesale-customer-list table th.column.enabled {
+    width: 25% !important;
+}
+}
+@media only screen and (max-width: 320px) {
+.wholesale-customer-list table .row-actions span {
+    font-size: 11px;
+}
+}
+

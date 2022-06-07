@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://tatum_[name]/./src/public/ts/style/tailwind.css"],"names":[],"mappings":"AAAA,eAAe,qBAAqB,oBAAoB,oBAAoB,yBAAyB,qB","file":"widget.css","sourcesContent":["@tailwind base;@tailwind components;@tailwind utilities;.react-demo-wrapper{max-width:100%!important;width:100%!important}"],"sourceRoot":""}

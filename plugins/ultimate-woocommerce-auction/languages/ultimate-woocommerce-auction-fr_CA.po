@@ -1,0 +1,1248 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate WooCommerce Auction\n"
+"POT-Creation-Date: 2018-10-15 11:50+0000\n"
+"PO-Revision-Date: 2021-10-29 13:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (Canada)\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.5; wp-5.8.1"
+
+#: includes/uwa-main-functions.php:284
+msgid "This product is not Auction"
+msgstr ""
+
+#: includes/uwa-misc-functions.php:90
+msgid "Your Bid Placed Successfully for &quot;%s&quot;."
+msgstr ""
+
+#: includes/uwa-misc-functions.php:98
+msgid "Your Bid has been placed successfully for &quot;%s&quot;!"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:94
+msgid "Years"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:95
+msgid "Months"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:96
+msgid "Weeks"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:97
+msgid "Days"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:98
+msgid "Hours"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:99
+msgid "Minutes"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:100
+msgid "Seconds"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:103
+msgid "Year"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:104
+msgid "Month"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:105
+msgid "Week"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:107
+msgid "Day"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:107
+msgid "Hour"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:108
+msgid "Minute"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:109
+msgid "Second"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:112
+msgid "y"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:113
+msgid "m"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:114
+msgid "w"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:115
+msgid "d"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:122
+msgid "Auction has expired!"
+msgstr ""
+
+#: includes/class-uwa-scripts.php:124
+msgid "Auction has started! Please refresh this page."
+msgstr ""
+
+#: includes/class-uwa-scripts.php:125
+msgid "You have been overbidded!"
+msgstr ""
+
+#: includes/class-uwa-front.php:250
+msgid "You can not buy this auction because you have not won it!"
+msgstr ""
+
+#: includes/class-uwa-front.php:317
+msgid "Winning!"
+msgstr ""
+
+#: includes/class-uwa-front.php:339
+msgid "Bids"
+msgstr ""
+
+#: includes/class-uwa-front.php:391
+msgid "Private message"
+msgstr ""
+
+#: includes/class-uwa-front.php:433
+msgid "Please enter your Name!"
+msgstr ""
+
+#: includes/class-uwa-front.php:438
+msgid "Please enter your Email address!"
+msgstr ""
+
+#: includes/class-uwa-front.php:443
+msgid "Please enter a message!"
+msgstr ""
+
+#: includes/class-uwa-front.php:461
+msgid "Thank you for Contacting."
+msgstr ""
+
+#: includes/class-uwa-front.php:538
+#: templates/woocommerce/single-product/uwa-watch.php:45
+msgid "Please sign in to watch this auction."
+msgstr ""
+
+#: includes/class-uwa-front.php:538 includes/class-uwa-bid.php:81
+msgid "Login"
+msgstr ""
+
+#: includes/class-uwa-front.php:564
+msgid "Reserve price has not been met!"
+msgstr ""
+
+#: includes/class-uwa-front.php:571
+msgid "Winning bid is %s by %s."
+msgstr ""
+
+#: includes/class-uwa-front.php:574
+#: templates/woocommerce/single-product/uwa-pay.php:19
+#: templates/woocommerce/loop/uwa-pay-button.php:15
+#: templates/woocommerce/emails/auction-winner.php:40
+#: templates/woocommerce/emails/plain/auction-winner.php:35
+#: templates/woocommerce/myaccount/uwa-myauction.php:34
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:33
+msgid "Pay Now"
+msgstr ""
+
+#: includes/class-uwa-front.php:579
+msgid "There were no bids for this auction."
+msgstr ""
+
+#: includes/class-uwa-front.php:590
+msgid "Please refresh page."
+msgstr ""
+
+#: includes/class-uwa-bid.php:38
+msgid "Please sign in to place your bid or buy the product."
+msgstr ""
+
+#: includes/class-uwa-bid.php:42
+msgid "Please enter a value greater than 0!"
+msgstr ""
+
+#: includes/class-uwa-bid.php:49
+msgid "This auction &quot;%s&quot; has expired"
+msgstr ""
+
+#: includes/class-uwa-bid.php:62
+msgid "No need to other bid. Your bid is winning!"
+msgstr ""
+
+#: includes/class-uwa-bid.php:81
+msgid "There was no bid placed"
+msgstr ""
+
+#: includes/class-uwa-product.php:46
+msgid "New"
+msgstr ""
+
+#: includes/class-uwa-product.php:46
+msgid "Used"
+msgstr ""
+
+#: includes/class-uwa-product.php:514
+msgid "<span class=\"woo-ua-sold-for sold_for\">Sold for</span>: "
+msgstr ""
+
+#: includes/class-uwa-product.php:524
+msgid "<span class=\"woo-ua-winned-for winning_bid\">Winning Bid</span>: "
+msgstr ""
+
+#: includes/class-uwa-product.php:528
+msgid "<span class=\"woo-ua-winned-for expired\">Auction Expired</span> "
+msgstr ""
+
+#: includes/class-uwa-product.php:536
+msgid "<span class=\"woo-ua-starting auction\">Starting bid</span>: "
+msgstr ""
+
+#: includes/class-uwa-product.php:541
+msgid "<span class=\"woo-ua-current auction\">Starting bid</span>: "
+msgstr ""
+
+#: includes/class-uwa-product.php:543
+msgid "<span class=\"woo-ua-current auction\">Current bid</span>: "
+msgstr ""
+
+#: includes/class-uwa-product.php:583
+msgid "Bid now"
+msgstr ""
+
+#: includes/class-uwa-product.php:585
+msgid "Auction finished"
+msgstr ""
+
+#: includes/class-uwa-product.php:585
+msgid "Auction has not started"
+msgstr ""
+
+#: includes/class-my-auction-watchlist.php:113
+#: includes/class-my-auction-watchlist.php:145
+msgid "My Auctions Watchlist"
+msgstr ""
+
+#: includes/class-my-auction.php:53 includes/class-my-auction.php:69
+msgid "My Auctions"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:21
+msgid "Item condition:"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:29
+msgid "Time Left:"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:38
+msgid "Ending On:"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:51
+msgid "Reserve price has not been met."
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:58
+msgid "Reserve price has been met."
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:45
+#: includes/admin/class-uwa-admin.php:221
+msgid "Timezone:"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:120
+msgid "Auction Product"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:51
+msgid "Current Bid:"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:50
+msgid "price has not been met."
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:52
+#: templates/woocommerce/single-product/uwa-bid.php:59
+msgid "Reserve %s"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:57
+msgid "price has been met."
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:79
+msgid "Place Bid"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:99
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:19
+msgid "Auction Expired because there were no bids"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:103
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:21
+#: includes/admin/class-uwa-admin.php:329
+msgid "Auction expired without reaching reserve price"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-pay.php:16
+msgid "Congratulations! You have won this auction."
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-watch.php:17
+msgid "Remove from watchlist!"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-watch.php:17
+msgid "View List!"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-watch.php:19
+msgid "Add to watchlist!"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:17
+#: includes/admin/class-uwa-admin.php:321
+msgid "Auction has expired"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:25
+msgid "Product sold for buy now price"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:27
+#: includes/admin/class-uwa-admin.php:342
+msgid "Highest bidder was"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:40
+#: includes/admin/class-uwa-admin.php:380
+#: includes/admin/uwa_manage_auctions.php:189
+msgid "Bidder Name"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:41
+#: includes/admin/class-uwa-admin.php:381
+msgid "Bidding Time"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:42
+#: includes/admin/class-uwa-admin.php:382
+#: includes/admin/woo_ua_auctions_logs.php:152
+msgid "Bid"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:64
+#: includes/admin/class-uwa-admin.php:403
+msgid "Auction started"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:66
+#: includes/admin/class-uwa-admin.php:405
+msgid "Auction starting"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-private-msg.php:14
+msgid "Send Private Message"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-private-msg.php:24
+#: templates/woocommerce/emails/auction-private-msg.php:25
+msgid "Name:"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-private-msg.php:31
+#: templates/woocommerce/emails/auction-private-msg.php:29
+msgid "Email:"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-private-msg.php:39
+#: templates/woocommerce/emails/auction-private-msg.php:33
+msgid "Message:"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-private-msg.php:50
+msgid "Send"
+msgstr ""
+
+#: templates/woocommerce/single-product/add-to-cart/uwa-auction.php:33
+msgid "Buy Now %s"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:10
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:10
+#: templates/woocommerce/emails/auction-winner.php:27
+#: templates/woocommerce/emails/auction-winner-admin.php:28
+#: templates/woocommerce/emails/bid-outbided.php:20
+#: templates/woocommerce/emails/bid-outbided-admin.php:23
+#: templates/woocommerce/emails/placed-bid.php:28
+#: templates/woocommerce/emails/placed-bid-admin.php:25
+msgid "Image"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:11
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:11
+#: templates/woocommerce/emails/auction-winner.php:28
+#: templates/woocommerce/emails/auction-winner-admin.php:29
+#: templates/woocommerce/emails/bid-outbided.php:21
+#: templates/woocommerce/emails/bid-outbided-admin.php:24
+#: templates/woocommerce/emails/placed-bid.php:29
+#: templates/woocommerce/emails/placed-bid-admin.php:25
+msgid "Product"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:12
+#: templates/woocommerce/emails/placed-bid.php:30
+msgid "Your bid"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:13
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:12
+#: templates/woocommerce/emails/bid-outbided.php:22
+#: templates/woocommerce/emails/bid-outbided-admin.php:25
+msgid "Current bid"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:14
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:14
+msgid "Status"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:37
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:36
+msgid "Closed"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:40
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:40
+msgid "Started"
+msgstr ""
+
+#: templates/woocommerce/emails/auction-private-msg.php:20
+#: templates/woocommerce/emails/auction-winner-admin.php:22
+#: templates/woocommerce/emails/bid-outbided-admin.php:17
+#: templates/woocommerce/emails/placed-bid-admin.php:18
+#: templates/woocommerce/emails/plain/bid-outbided-admin.php:14
+#: templates/woocommerce/emails/plain/placed-bid-admin.php:15
+#: templates/woocommerce/emails/plain/auction-winner-admin.php:18
+msgid "Hi Admin,"
+msgstr ""
+
+#: templates/woocommerce/emails/auction-private-msg.php:21
+msgid "Bidder Sent Private Message for Auction <a href='%s'>%s</a>."
+msgstr ""
+
+#: templates/woocommerce/emails/auction-private-msg.php:22
+#: templates/woocommerce/emails/auction-winner.php:23
+#: templates/woocommerce/emails/auction-winner-admin.php:25
+#: templates/woocommerce/emails/bid-outbided.php:16
+#: templates/woocommerce/emails/bid-outbided-admin.php:19
+#: templates/woocommerce/emails/placed-bid.php:24
+#: templates/woocommerce/emails/placed-bid-admin.php:20
+msgid "Here are the details : "
+msgstr ""
+
+#: templates/woocommerce/emails/auction-winner.php:21
+#: templates/woocommerce/emails/bid-outbided.php:14
+#: templates/woocommerce/emails/placed-bid.php:22
+#: templates/woocommerce/emails/plain/auction-winner.php:18
+#: templates/woocommerce/emails/plain/bid-outbided.php:14
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/woocommerce/emails/auction-winner.php:29
+#: templates/woocommerce/emails/auction-winner-admin.php:30
+msgid "Winning bid"
+msgstr ""
+
+#: templates/woocommerce/emails/auction-winner.php:39
+msgid "Please, proceed to checkout"
+msgstr ""
+
+#: templates/woocommerce/emails/auction-winner-admin.php:31
+msgid "Winner"
+msgstr ""
+
+#: templates/woocommerce/emails/bid-outbided.php:15
+#: templates/woocommerce/emails/plain/bid-outbided.php:16
+msgid "You have been outbid on the product <a href='%s'>%s</a>."
+msgstr ""
+
+#: templates/woocommerce/emails/bid-outbided.php:31
+msgid "If you want to bid a new amount, click here"
+msgstr ""
+
+#: templates/woocommerce/emails/placed-bid.php:23
+#: templates/woocommerce/emails/plain/placed-bid.php:17
+msgid "You recently placed a bid on <a href='%s'>%s</a>."
+msgstr ""
+
+#: templates/woocommerce/emails/placed-bid-admin.php:19
+#: templates/woocommerce/emails/plain/placed-bid-admin.php:17
+msgid "A bid was placed on <a href='%s'>%s</a>."
+msgstr ""
+
+#: templates/woocommerce/emails/placed-bid-admin.php:26
+#: templates/woocommerce/emails/plain/bid-outbided.php:55
+#: templates/woocommerce/single-product/uwa-bid.php:71
+msgid "Bid Value"
+msgstr ""
+
+#: templates/woocommerce/emails/plain/auction-winner.php:22
+#: templates/woocommerce/emails/plain/auction-winner-admin.php:25
+msgid "Winning bid %s."
+msgstr ""
+
+#: templates/woocommerce/emails/plain/auction-winner.php:24
+msgid "Please, proceed to checkout ,<a href='%s'>%s</a>."
+msgstr ""
+
+#: templates/woocommerce/emails/plain/bid-outbided.php:20
+msgid "If you want to bid a new amount, click here <a href='%s'>%s</a>."
+msgstr ""
+
+#: templates/woocommerce/emails/plain/bid-outbided-admin.php:16
+msgid "Auction outbided by user. Auction url <a href='%s'>%s</a>."
+msgstr ""
+
+#: templates/woocommerce/emails/plain/bid-outbided-admin.php:18
+#: templates/woocommerce/emails/plain/placed-bid.php:19
+#: templates/woocommerce/emails/plain/placed-bid-admin.php:19
+#: templates/woocommerce/emails/plain/bid-outbided.php:18
+msgid "Bid Value %s."
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:167
+msgid "Product Condition"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:172
+msgid "Opening Price"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:174
+msgid "Set the price where the price of the product will start from."
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:181
+msgid "Lowest Price to Accept"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:183
+msgid "Set Reserve price for your auction."
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:189
+msgid "Bid Increment"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:192
+msgid "Set an amount from which next bid should start."
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:198
+msgid "Buy now price"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:209
+#: includes/admin/uwa_manage_auctions.php:187
+msgid "Ending Date"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:211
+msgid "Set the end date of Auction Product."
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:220
+msgid "Current Blog Time is %s"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:221
+msgid "Change"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:302
+msgid "Bids History"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:325
+msgid "Auction Expired without any bids"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:325
+msgid "Remove Reserve Price"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:325
+msgid "This auction product has been sold for buy now price"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:344
+msgid "Highest bid was"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:348
+msgid "Order has been paid, order ID is"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:354
+msgid "unknown"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:356
+msgid "Order has been made, order status is"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:870
+msgid "Auction Status"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:887
+#: includes/admin/class-uwa-product.php:653
+msgid "Expired"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:889
+msgid "Live"
+msgstr ""
+
+#: templates/woocommerce/single-product/tab/uwa-bids-history.php:13
+#: includes/admin/class-uwa-admin.php:368
+msgid "Total Bids Placed:"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:383
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:495
+msgid "Live Auction"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:496
+msgid "Expired Auction"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:497
+msgid "Fail Auction"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:498
+msgid "Sold Auction"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:499
+msgid "Paid Auction"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:503
+msgid "Auction filter By"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:394
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:720
+#: includes/admin/class-uwa-admin.php:728
+msgid "Bid Deleted Successfully"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:739
+msgid "Bid Not Deleted"
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:800
+msgid "Auction ended successfully."
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:806
+msgid "Sorry, this auction cannot be ended."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:29
+msgid "Auctions"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:211
+msgid "Auction Settings"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:220
+msgid "Check Auction Status:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:223
+msgid "In every:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:224
+msgid "Minutes."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:227
+msgid ""
+"A scheduler runs on an interval specified in this field in recurring manner."
+"It checks, if some live auctions product can be expired and accordingly "
+"update their status."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:235
+msgid "Auctions Processed Simultaneously:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:239
+msgid "Process"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:240
+msgid "auctions per request."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:243
+msgid ""
+"Number of auctions products Process per request.The scheduler processes the "
+"specified no. auctions whenever a schedule occurs."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:248
+msgid ""
+"It is recommended to fill the above values in a balanced manner based upon "
+"the traffic, no. of auction products and no. of users on your site."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:250
+msgid ""
+"The less is the no. of auctions per request (fields 2 and 4 from above), the "
+"processing will be more optimized. If you are allowing so many auctions to "
+"be processed in each request, it can affect your site performance."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:252
+msgid ""
+"Similarly, you should also not set a very few no. of auction products since "
+"there may be delayed in expiry of some auction products and/or email "
+"notifications."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:254
+msgid ""
+"It is recommended not to keep on changing these values frequently as your "
+"auction products will be rescheduled every time you update the values."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:265
+msgid "Bidding Information:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:268
+msgid "Enable Ajax update for latest bidding."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:271
+msgid ""
+"Enables/disables ajax current bid checker (refresher) for auction - updates "
+"current bid value without refreshing page (increases server load, disable "
+"for best performance)"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:279
+msgid "Check Bidding Info:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:287
+msgid ""
+"Time interval between two ajax requests in seconds (bigger intervals means "
+"less load for server)"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:295
+msgid "Shop Page"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:296
+msgid "The following options affect on frontend Shop Page"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:302
+msgid "Auctions Display:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:306
+msgid "Show Expired Auctions"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:312
+msgid "Show Auctions on:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:315
+msgid "On Shop Page"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:322
+msgid "On product search page"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:330
+msgid "On product category page"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:337
+msgid "On product tag page"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:342
+msgid "Auction Detail Page"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:346
+msgid "The following options affect on frontend Auction Detail page."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:353
+msgid "Countdown Format"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:357
+msgid "The format for the countdown display. Default is yowdHMS"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:369
+msgid "Enable Specific Sections:"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:373
+msgid "Enable Comments section"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:383
+msgid "Enable Send Private message"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:392
+msgid "Enable Bids section"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:403
+msgid "Enable Watchlists"
+msgstr ""
+
+#: includes/admin/woo_ua_auctions_logs.php:300
+msgid "Record deleted successfully"
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:415
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:32
+msgid "​Email ​Can be sent to the bidder after winning an auction"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:33
+#: includes/admin/email/class-uwa-email-auction-winner.php:34
+msgid "Congratulations! You have won an auction on {site_title}"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:85
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:185
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:192
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:184
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:188
+#: includes/admin/email/class-uwa-email-private-msg.php:183
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:99
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:87
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:189
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:195
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:189
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:192
+#: includes/admin/email/class-uwa-email-private-msg.php:188
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:101
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:198
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:203
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:197
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:203
+#: includes/admin/email/class-uwa-email-private-msg.php:197
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:107
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:203
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:212
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:205
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:211
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:202
+#: includes/admin/email/class-uwa-email-private-msg.php:211
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:122
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:219
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:226
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:221
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:225
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:218
+#: includes/admin/email/class-uwa-email-private-msg.php:225
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:130
+msgid "Email Heading"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:235
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:240
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:236
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:239
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:203
+#: includes/admin/email/class-uwa-email-private-msg.php:239
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:139
+msgid "Email type"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:239
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:244
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:241
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:243
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:203
+#: includes/admin/email/class-uwa-email-private-msg.php:243
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:203
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:67
+msgid "​Send bid email notification to admin when Bidder place a bid."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:71
+msgid "​Bidder placed a bid on {site_title}"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:69
+msgid "​Bid item on {site_title}"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:65
+msgid "​Email ​Can be send to Bidder for Outbid their Bid"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:67
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:68
+msgid "​You have been outbid on {site_title}"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:65
+msgid "Send outbid email notification to admin when Bidder outbid a bid"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:67
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:68
+msgid "Auction outbid on {site_title}"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:67
+msgid "Email Notification sent to Bidder when Bidder places a bid."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:69
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:71
+msgid "You recently placed a bid on {site_title}"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-private-msg.php:65
+msgid "Email can be send to admin when bidder send Private message."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-private-msg.php:67
+#: includes/admin/email/class-uwa-email-private-msg.php:69
+msgid "You have a private message from  {site_title}"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:32
+msgid "Can be sent to admin when the auction ends and has a winner"
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:33
+#: includes/admin/email/class-uwa-email-auction-winner-admin.php:34
+msgid "Auction Product Won by User on {site_title}"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:185
+#: includes/admin/uwa_manage_auctions.php:195
+msgid "Auction Title"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:186
+#: includes/admin/uwa_manage_auctions.php:196
+msgid "Creation Date"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:188
+msgid "Starting / Current Price"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:189
+#: includes/admin/uwa_manage_auctions.php:199
+msgid "Bidders Name / Bid / Time"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:197
+msgid "End Date"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:198
+msgid "Starting / Final Price"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:372
+msgid ""
+"If you like <a href=\"https://wordpress.org/support/plugin/ultimate-"
+"woocommerce-auction/reviews?rate=5#new-post\" target=\"_blank\"> our plugin "
+"working </a> with WooCommerce, please leave us a <a href=\"https://wordpress."
+"org/support/plugin/ultimate-woocommerce-auction/reviews?rate=5#new-post\" "
+"target=\"_blank\">★★★★★</a> rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:393
+msgid "Live Auctions"
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:394
+msgid "Expired Auctions"
+msgstr ""
+
+#: includes/uwa-misc-functions.php:123
+#: includes/admin/uwa_manage_auctions.php:163
+msgid "No bids placed"
+msgstr ""
+
+#: templates/woocommerce/single-product/uwa-bid.php:79
+msgid "Enter more than or equal to"
+msgstr ""
+
+#: includes/class-my-auction-setting.php:55
+#: includes/class-my-auction-setting.php:71
+msgid "Auctions Setting"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction-setting.php:19
+msgid "Display your name publicly"
+msgstr ""
+
+#: includes/class-uwa-front.php:541
+msgid ""
+"<span class=\"watchlist-error\">Please Login/Register in to add auction to "
+"watchlist. </span><a href=\"%s\" class=\"button watchlist-error\">"
+"Login/Register &rarr;</a>"
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction.php:57
+msgid "No auctions available yet."
+msgstr ""
+
+#: templates/woocommerce/myaccount/uwa-myauction-watchlist.php:53
+msgid "No Watchlist auctions available yet."
+msgstr ""
+
+#: ######################## NEWLY ADDED STRINGS ######################
+#: includes/uwa-misc-functions.php:95
+msgid ""
+"Your Bid has been placed successfully for &quot;%s&quot;! Your max bid is %s."
+msgstr ""
+
+#: includes/uwa-misc-functions.php:103
+msgid ""
+"Your bid has been placed successfully but you have been outbid for &quot;"
+"%s&quot;!"
+msgstr ""
+
+#: includes/class-uwa-bid.php:58
+msgid ""
+"You cannot place a bid for &quot;%s&quot; because the product is out of "
+"stock."
+msgstr ""
+
+#: templates/woocommerce/emails/auction-winner.php:22
+#: templates/woocommerce/emails/plain/auction-winner.php:20
+#: includes/class-uwa-bid.php:75
+msgid ""
+"Please enter a bid value for &quot;%s&quot; greater than the current bid. "
+"Your bid must be at least %s "
+msgstr ""
+
+#: templates/woocommerce/emails/auction-winner-admin.php:24
+#: templates/woocommerce/emails/plain/auction-winner-admin.php:20
+msgid ""
+"The auction has expired and won by user. Auction url <a href='%s'>%s</a>."
+msgstr ""
+
+#: includes/admin/class-uwa-admin.php:296
+msgid ""
+"Visitors can buy your auction by making payments via Available payment "
+"method."
+msgstr ""
+
+#: includes/admin/uwa-admin-setting.php:431
+msgid ""
+"Use the following characters (in order) to indicate which periods you want "
+"to display: 'Y' for years, 'O' for months, 'W' for weeks, 'D' for days, 'H' "
+"for hours, 'M' for minutes, 'S' for seconds.\tUse upper-case characters for "
+"mandatory periods, or the corresponding lower-case characters for optional "
+"periods, i.e. only display if non-zero. Once one optional period is shown, "
+"all the ones after that are also shown."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:207
+msgid ""
+"Enter the subject of the email that is sent to the bidder after winning an "
+"auction. Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-winner.php:223
+msgid ""
+"Enter the Heading of the email that is sent to the bidder after winning an "
+"auction. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:97
+msgid ""
+"Enter the subject of the email that is sent to the admin after successfully "
+"placing a bid. Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-admin.php:104
+msgid ""
+"Enter the Heading of the email that is sent to the admin after successfully "
+"placing a bid. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:99
+msgid ""
+"Enter the subject of the email that is sent to the admin after Bidder "
+"overbidded a bid. Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:106
+msgid ""
+"Enter the Heading of the email that is sent to the admin after Bidder "
+"overbidded a bid. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:93
+msgid ""
+"Enter the subject of the email that is sent to the bidder after successfully "
+"placing a bid.Leave blank to use the default subject:- <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-place-bid.php:101
+msgid ""
+"Enter the Heading of the email that is sent to the bidder after successfully "
+"placing a bid. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-private-msg.php:98
+msgid ""
+"Enter the subject of the email that is sent to the admin when bidder send "
+"private message. Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-private-msg.php:105
+msgid ""
+"Enter the heading of the email that is sent to the admin when bidder send "
+"private message. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:94
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:102
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: ------------------------ New texts -------------------------------
+#: includes/class-uwa-bid.php:52
+msgid ""
+"Please Login/Register in to place your bid or buy the product. <a "
+"href=\"%s\" target=\"_blank\" class=\"button\">Login/Register &rarr;</a>"
+msgstr ""
+
+#: templates/woocommerce/emails/bid-outbided.php:20
+#: templates/woocommerce/emails/plain/bid-outbided.php:20
+#: templates/woocommerce/emails/bid-outbided-admin.php:23
+#: templates/woocommerce/emails/plain/bid-outbided-admin.php:23
+msgid "Auction has been outbid. Auction url <a href='%s'>%s</a>."
+msgstr ""
+
+#: includes/admin/email/class-uwa-email-auction-bid-overbid.php:192
+#: includes/admin/email/class-uwa-email-auction-bid-overbid-admin.php:184
+msgid "Auction has been outbid on {site_title}"
+msgstr ""
+
+#: includes/admin/uwa_general_setting_tab.php:613
+msgid "Allow Administrator to bid on their own auction."
+msgstr ""
+
+#: includes/admin/uwa_general_setting_tab.php:621
+msgid "Allow Auction Owner (Seller/Vendor) to bid on their own auction."
+msgstr ""
+
+#: includes/admin/uwa_general_setting_tab.php:600
+msgid "Bidding Restriction:"
+msgstr ""
+
+#: includes/class-uwa-bid.php:65 includes/class-uwa-bid.php:70
+msgid "Sorry, you can not bid on your own auction product."
+msgstr ""
+
+#: includes/admin/uwa_manage_auctions.php:418
+msgid "Ultimate Auction for WooCommerce"
+msgstr ""
+
+#: templates\woocommerce\single-product\tabs\uwa-private-msg.php:28
+msgid "Your name"
+msgstr ""
+
+#: templates\woocommerce\single-product\tabs\uwa-private-msg.php:49
+msgid "Message Detail"
+msgstr "Détails du message"

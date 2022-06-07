@@ -1,0 +1,75 @@
+2022-05-23T11:00:21+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(659): plugin_sandbox_scrape()
+#3 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(58): activate_plugin()
+#4 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:00:24+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#3 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:00:27+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#3 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:07:14+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(659): plugin_sandbox_scrape()
+#3 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(58): activate_plugin()
+#4 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:07:17+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#3 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:07:18+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#3 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:10:08+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(659): plugin_sandbox_scrape()
+#3 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(58): activate_plugin()
+#4 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:10:11+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#3 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+
+2022-05-23T11:10:11+00:00 CRITICAL Uncaught Error: Class 'Hathoriel\Tatum\Core' not found in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php:42
+Stack trace:
+#0 /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/index.php(46): require_once()
+#1 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/includes/plugin.php(2288): include_once('/srv/data/web/v...')
+#2 /srv/data/web/vhosts/odyssea.io/htdocs/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#3 {main}
+  thrown in /srv/data/web/vhosts/odyssea.io/htdocs/wp-content/plugins/tatum/inc/base/others/start.php on line 42
+

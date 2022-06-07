@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'jetcomparewishlist-frontend-font';
+  src:  url('../fonts/jet-cw-frontend-font.eot?p4gf2');
+  src:  url('../fonts/jet-cw-frontend-font.eot?p4gf2#iefix') format('embedded-opentype'),
+    url('../fonts/jet-cw-frontend-font.ttf?p4gf2') format('truetype'),
+    url('../fonts/jet-cw-frontend-font.woff?p4gf2') format('woff'),
+    url('../fonts/jet-cw-frontend-font.svg?p4gf2#jet-cw-frontend-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jetcomparewishlist-icon-"], [class*=" jetcomparewishlist-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jetcomparewishlist-frontend-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jetcomparewishlist-icon-added:before {
+  content: "\e900";
+}
+.jetcomparewishlist-icon-added-1:before {
+  content: "\e901";
+}
+.jetcomparewishlist-icon-added-2:before {
+  content: "\e902";
+}
+.jetcomparewishlist-icon-added-3:before {
+  content: "\e903";
+}
+.jetcomparewishlist-icon-added-4:before {
+  content: "\e905";
+}
+.jetcomparewishlist-icon-added-5:before {
+  content: "\e906";
+}
+.jetcomparewishlist-icon-added-6:before {
+  content: "\e907";
+}
+.jetcomparewishlist-icon-added-7:before {
+  content: "\e908";
+}
+.jetcomparewishlist-icon-bag:before {
+  content: "\e909";
+}
+.jetcomparewishlist-icon-bag-1:before {
+  content: "\e90a";
+}
+.jetcomparewishlist-icon-bag-2:before {
+  content: "\e90b";
+}
+.jetcomparewishlist-icon-bag-3:before {
+  content: "\e90c";
+}
+.jetcomparewishlist-icon-bag-4:before {
+  content: "\e90d";
+}
+.jetcomparewishlist-icon-bag-5:before {
+  content: "\e90e";
+}
+.jetcomparewishlist-icon-bag-6:before {
+  content: "\e90f";
+}
+.jetcomparewishlist-icon-bag-7:before {
+  content: "\e910";
+}
+.jetcomparewishlist-icon-bag-8:before {
+  content: "\e911";
+}
+.jetcomparewishlist-icon-bag-9:before {
+  content: "\e912";
+}
+.jetcomparewishlist-icon-bag-10:before {
+  content: "\e913";
+}
+.jetcomparewishlist-icon-bag-11:before {
+  content: "\e914";
+}
+.jetcomparewishlist-icon-bag-12:before {
+  content: "\e915";
+}
+.jetcomparewishlist-icon-basket:before {
+  content: "\e916";
+}
+.jetcomparewishlist-icon-basket-1:before {
+  content: "\e917";
+}
+.jetcomparewishlist-icon-basket-2:before {
+  content: "\e918";
+}
+.jetcomparewishlist-icon-basket-3:before {
+  content: "\e919";
+}
+.jetcomparewishlist-icon-basket-4:before {
+  content: "\e91a";
+}
+.jetcomparewishlist-icon-basket-5:before {
+  content: "\e91b";
+}
+.jetcomparewishlist-icon-basket-6:before {
+  content: "\e91c";
+}
+.jetcomparewishlist-icon-basket-8:before {
+  content: "\e91d";
+}
+.jetcomparewishlist-icon-compare:before {
+  content: "\e91e";
+}
+.jetcomparewishlist-icon-compare-1:before {
+  content: "\e91f";
+}
+.jetcomparewishlist-icon-compare-2:before {
+  content: "\e920";
+}
+.jetcomparewishlist-icon-compare-3:before {
+  content: "\e921";
+}
+.jetcomparewishlist-icon-compare-4:before {
+  content: "\e922";
+}
+.jetcomparewishlist-icon-compare-5:before {
+  content: "\e923";
+}
+.jetcomparewishlist-icon-loading:before {
+  content: "\e924";
+}
+.jetcomparewishlist-icon-loading-1:before {
+  content: "\e925";
+}
+.jetcomparewishlist-icon-loading-2:before {
+  content: "\e926";
+}
+.jetcomparewishlist-icon-loading-3:before {
+  content: "\e927";
+}
+.jetcomparewishlist-icon-loading-4:before {
+  content: "\e928";
+}
+.jetcomparewishlist-icon-loading-5:before {
+  content: "\e929";
+}
+.jetcomparewishlist-icon-loading-6:before {
+  content: "\e92a";
+}
+.jetcomparewishlist-icon-loading-7:before {
+  content: "\e92b";
+}
+.jetcomparewishlist-icon-options:before {
+  content: "\e92c";
+}
+.jetcomparewishlist-icon-options-1:before {
+  content: "\e92d";
+}
+.jetcomparewishlist-icon-options-2:before {
+  content: "\e92e";
+}
+.jetcomparewishlist-icon-options-3:before {
+  content: "\e92f";
+}
+.jetcomparewishlist-icon-options-4:before {
+  content: "\e930";
+}
+.jetcomparewishlist-icon-options-5:before {
+  content: "\e931";
+}
+.jetcomparewishlist-icon-options-6:before {
+  content: "\e932";
+}
+.jetcomparewishlist-icon-quickview:before {
+  content: "\e933";
+}
+.jetcomparewishlist-icon-quickview-1:before {
+  content: "\e934";
+}
+.jetcomparewishlist-icon-quickview-2:before {
+  content: "\e935";
+}
+.jetcomparewishlist-icon-quickview-3:before {
+  content: "\e936";
+}
+.jetcomparewishlist-icon-quickview-4:before {
+  content: "\e937";
+}
+.jetcomparewishlist-icon-rating-1:before {
+  content: "\e938";
+}
+.jetcomparewishlist-icon-rating-2:before {
+  content: "\e939";
+}
+.jetcomparewishlist-icon-rating-3:before {
+  content: "\e93a";
+}
+.jetcomparewishlist-icon-rating-4:before {
+  content: "\e93b";
+}
+.jetcomparewishlist-icon-rating-5:before {
+  content: "\e93c";
+}
+.jetcomparewishlist-icon-rating-6:before {
+  content: "\e93d";
+}
+.jetcomparewishlist-icon-rating-7:before {
+  content: "\e93e";
+}
+.jetcomparewishlist-icon-rating-8:before {
+  content: "\e93f";
+}
+.jetcomparewishlist-icon-rating-9:before {
+  content: "\e940";
+}
+.jetcomparewishlist-icon-rating-10:before {
+  content: "\e941";
+}
+.jetcomparewishlist-icon-rating-11:before {
+  content: "\e942";
+}
+.jetcomparewishlist-icon-rating-12:before {
+  content: "\e943";
+}
+.jetcomparewishlist-icon-rating-13:before {
+  content: "\e944";
+}
+.jetcomparewishlist-icon-rating-14:before {
+  content: "\e945";
+}
+.jetcomparewishlist-icon-wishlist:before {
+  content: "\e946";
+}
+.jetcomparewishlist-icon-wishlist-1:before {
+  content: "\e947";
+}
+.jetcomparewishlist-icon-wishlist-2:before {
+  content: "\e948";
+}
+.jetcomparewishlist-icon-wishlist-3:before {
+  content: "\e949";
+}

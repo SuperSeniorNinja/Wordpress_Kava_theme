@@ -1,0 +1,19 @@
+@import '../../mixins';
+
+.header-menu-items-mobile {
+  display: none;
+
+  &-opened {
+    display: flex;
+  }
+
+  @include lg {
+    display: none;
+  }
+
+  &-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

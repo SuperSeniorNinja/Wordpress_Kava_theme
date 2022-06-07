@@ -1,0 +1,129 @@
+@import "../../mixins";
+
+.explorer {
+  &-spinner {
+    margin-top: 30px;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  &-header {
+    color: #222222;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    margin-bottom: 40px;
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include md {
+      max-width: 900px;
+    }
+
+    @include lg {
+      align-items: start;
+      max-width: 1000px;
+      flex-direction: row;
+    }
+
+    @include xl {
+      align-items: start;
+      max-width: 1220px;
+      flex-direction: row;
+    }
+  }
+
+  &-filter {
+    width: 300px;
+    margin-top: 10px;
+
+    @include lg {
+      margin-right: 20px;
+    }
+
+    &-chains {
+      @include border-radius-effect();
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+
+      &-header {
+        color: #111111;
+        font-size: 20px;
+        line-height: 2.8em;
+      }
+
+      &-chain {
+        font-size: 14px;
+        color: #4C5866;
+        cursor: pointer;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+
+        &-input {
+          margin-right: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &-nfts {
+    align-items: center;
+    flex-direction: column;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    @include lg {
+      flex-direction: row;
+    }
+
+  }
+
+  &-nft {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    @include border-radius-effect();
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+    &-image {
+      width: 200px;
+      height: 200px;
+    }
+
+    &-name {
+      color: #222222;
+      font-size: 17px;
+      font-weight: 600;
+      text-transform: capitalize;
+      line-height: 1.4em;
+      text-overflow: ellipsis;
+      width: 80%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+}

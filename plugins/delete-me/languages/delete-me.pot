@@ -1,0 +1,490 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Delete Me\n"
+"POT-Creation-Date: 2020-05-09 00:21-0400\n"
+"PO-Revision-Date: 2018-02-04 03:24-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n;_nx:1,2,4c;_n_noop;"
+"_nx_noop:1,2,3c;esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: delete-me.php:102
+#, php-format
+msgid "Plugin incompatible, <em>%1$s</em> requires WordPress %2$s or higher."
+msgstr ""
+
+#: delete-me.php:242
+msgid "Changelog"
+msgstr ""
+
+#: delete-me.php:314
+msgid "Profile"
+msgstr ""
+
+#: inc/admin_page_confirmation.php:16 inc/shortcode.php:26
+#: inc/your_profile.php:38
+msgid "Delete Account"
+msgstr ""
+
+#: inc/admin_page_confirmation.php:21 inc/shortcode.php:29
+#, no-php-format
+msgid ""
+"WARNING!<br /><br />Are you sure you want to delete user %username% from "
+"%sitename%?"
+msgstr ""
+
+#: inc/admin_page_confirmation.php:27 inc/shortcode.php:31
+msgid "Confirm Deletion"
+msgstr ""
+
+#: inc/admin_page_confirmation.php:35 inc/shortcode.php:30
+msgid "Password"
+msgstr ""
+
+#: inc/admin_page_settings.php:100
+msgid "Default settings restored."
+msgstr ""
+
+#: inc/admin_page_settings.php:110
+msgid "Network Wide has been disabled."
+msgstr ""
+
+#: inc/admin_page_settings.php:116
+msgid "Network Wide has been enabled."
+msgstr ""
+
+#: inc/admin_page_settings.php:257
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin_page_settings.php:281
+#, php-format
+msgctxt "%s = plugin name"
+msgid "%s Settings"
+msgstr ""
+
+#: inc/admin_page_settings.php:281
+msgid "Network-Wide"
+msgstr ""
+
+#: inc/admin_page_settings.php:286
+#, php-format
+msgctxt "%s = enabled or disabled"
+msgid ""
+"Role changes are disabled here and changes to settings will not go into "
+"effect because <strong>Network-Wide</strong> is %s."
+msgstr ""
+
+#: inc/admin_page_settings.php:286 inc/admin_page_settings.php:507
+#, php-format
+msgctxt "Link text for Network-Wide settings. %s = plugin name"
+msgid "Network Admin &rarr; Settings &rarr; %s"
+msgstr ""
+
+#: inc/admin_page_settings.php:294
+#, php-format
+msgctxt "%s = Enable or Disable"
+msgid "%s Network-Wide"
+msgstr ""
+
+#: inc/admin_page_settings.php:294
+msgid "Enable"
+msgstr ""
+
+#: inc/admin_page_settings.php:294
+msgid "Disable"
+msgstr ""
+
+#: inc/admin_page_settings.php:294
+#, php-format
+msgctxt ""
+"JavaScript confirm for button toggling Network-Wide. %s = enable or disable"
+msgid ""
+"WARNING!\\n\\nALL ROLE SELECTIONS WILL BE LOST, NETWORK AND SITE-SPECIFIC\\n"
+"\\nAre you sure you want to %s Network-Wide?"
+msgstr ""
+
+#: inc/admin_page_settings.php:296
+msgid "Enabled"
+msgstr ""
+
+#: inc/admin_page_settings.php:296
+msgid ""
+"The settings on this page affect all sites. Site-specific settings are "
+"ignored, except for override attributes in shortcodes."
+msgstr ""
+
+#: inc/admin_page_settings.php:297
+msgid "Disabled"
+msgstr ""
+
+#: inc/admin_page_settings.php:297
+msgid ""
+"Site-specific settings are used on all sites. Settings on this page are "
+"ignored."
+msgstr ""
+
+#: inc/admin_page_settings.php:303
+msgid "Roles"
+msgstr ""
+
+#: inc/admin_page_settings.php:306
+msgid "Which roles can delete themselves?"
+msgstr ""
+
+#: inc/admin_page_settings.php:322
+msgid "Super Admin & Administrator"
+msgstr ""
+
+#: inc/admin_page_settings.php:343
+msgid ""
+"Super Admins & Administrators are disabled because those roles should "
+"typically not be deleted and they can already delete users in WordPress."
+msgstr ""
+
+#: inc/admin_page_settings.php:344
+msgid ""
+"To test the plugin, you should use a separate WordPress login with a role "
+"other than Super Admin & Administrator. That way the delete links you "
+"configure are visible to you."
+msgstr ""
+
+#: inc/admin_page_settings.php:345
+msgid ""
+"Roles from all network Sites are combined on this page, and the selected "
+"roles are allowed to delete themselves across all Sites."
+msgstr ""
+
+#: inc/admin_page_settings.php:355
+msgid "Translatable"
+msgstr ""
+
+#: inc/admin_page_settings.php:355
+msgid ""
+"Translatable text strings are highlighted below using two colors. These "
+"strings can be controlled using translations on Sites available in multiple "
+"languages. If a string is \"Unchanged\" from the default settings, it will "
+"use available translations from the languages directory for plugins. A "
+"\"Changed\" string will never use translations."
+msgstr ""
+
+#: inc/admin_page_settings.php:359
+msgid "Unchanged"
+msgstr ""
+
+#: inc/admin_page_settings.php:361
+msgid "Changed"
+msgstr ""
+
+#: inc/admin_page_settings.php:363
+msgid "Installing Translations"
+msgstr ""
+
+#: inc/admin_page_settings.php:368
+msgid "Your Profile"
+msgstr ""
+
+#: inc/admin_page_settings.php:371 inc/admin_page_settings.php:437
+msgid "Link"
+msgstr ""
+
+#: inc/admin_page_settings.php:371 inc/admin_page_settings.php:437
+msgid ""
+"Class & Style are optional. The last box is the clickable content of the "
+"link in HTML (e.g. Delete Account &mdash; or &mdash; <img alt=\"\" src="
+"\"http://www.example.com/image.png\" width=\"100\" height=\"20\" />)."
+msgstr ""
+
+#: inc/admin_page_settings.php:383
+msgid "Confirm Heading"
+msgstr ""
+
+#: inc/admin_page_settings.php:383
+msgid "Heading, in HTML, used on confirmation page."
+msgstr ""
+
+#: inc/admin_page_settings.php:393
+msgid "Confirm Warning"
+msgstr ""
+
+#: inc/admin_page_settings.php:393
+#, no-php-format
+msgid ""
+"Warning, in HTML, used on confirmation page. Use %username% for Username, "
+"%displayname% for Display Name, and %sitename% for Site name."
+msgstr ""
+
+#: inc/admin_page_settings.php:399
+msgid "Confirm Password"
+msgstr ""
+
+#: inc/admin_page_settings.php:399
+msgid ""
+"Check box to require that users confirm their password on the confirmation "
+"page. Label, in HTML, used for the password input box on confirmation page."
+msgstr ""
+
+#: inc/admin_page_settings.php:410
+msgid "Confirm Button"
+msgstr ""
+
+#: inc/admin_page_settings.php:410
+#, no-php-format
+msgid ""
+"Button text used on confirmation page. Use %username% for Username and "
+"%displayname% for Display Name."
+msgstr ""
+
+#: inc/admin_page_settings.php:421 inc/admin_page_settings.php:480
+msgid "Landing URL"
+msgstr ""
+
+#: inc/admin_page_settings.php:421 inc/admin_page_settings.php:480
+msgid "Redirect user here after deletion."
+msgstr ""
+
+#: inc/admin_page_settings.php:424 inc/admin_page_settings.php:483
+msgid "Leave blank to remain at the same URL after deletion."
+msgstr ""
+
+#: inc/admin_page_settings.php:428
+msgid "Link Enabled"
+msgstr ""
+
+#: inc/admin_page_settings.php:428
+msgid ""
+"Check box to show delete link near the bottom of the Your Profile page, "
+"uncheck box to hide delete link."
+msgstr ""
+
+#: inc/admin_page_settings.php:434
+msgid "Shortcode"
+msgstr ""
+
+#: inc/admin_page_settings.php:449
+msgid "JS Confirm Warning"
+msgstr ""
+
+#: inc/admin_page_settings.php:449
+#, no-php-format
+msgid ""
+"Warning text used for Javascript confirm dialog when using Link, ignored if "
+"using Form. Use \\n for new lines, %username% for Username, and %displayname"
+"% for Display Name."
+msgstr ""
+
+#: inc/admin_page_settings.php:455
+msgid "JS Confirm Enabled"
+msgstr ""
+
+#: inc/admin_page_settings.php:455
+msgid ""
+"Check box to use Javascript confirm dialog when using Link, ignored if using "
+"Form. Uncheck box for deletion without further confirmation."
+msgstr ""
+
+#: inc/admin_page_settings.php:461
+msgid "Use Form Instead of Link"
+msgstr ""
+
+#: inc/admin_page_settings.php:461
+#, no-php-format
+msgid ""
+"Check box to use the form below instead of the Link. The form also requires "
+"users to confirm their password. Uncheck box to use Link configured above. "
+"Use %username% for Username and %displayname% for Display Name (1st and 3rd "
+"inputs). Use %sitename% for Site name (1st input only). Typical form use "
+"would be to place the shortcode on a custom confirmation page you create for "
+"account deletion, then link to the confirmation page from somewhere "
+"appropriate on your site (e.g. a profile page)."
+msgstr ""
+
+#: inc/admin_page_settings.php:487
+msgid "Usage"
+msgstr ""
+
+#: inc/admin_page_settings.php:487
+msgid ""
+"Text inside the Shortcode open and close tags is only served to those who "
+"cannot delete themselves, everyone else will be shown the delete link. "
+"Attributes may be used to override settings, but are not required."
+msgstr ""
+
+#: inc/admin_page_settings.php:491 inc/admin_page_settings.php:495
+msgid "Text inside Shortcode tags"
+msgstr ""
+
+#: inc/admin_page_settings.php:498
+msgid "Link attributes: class, style, html, js_confirm_warning, landing_url"
+msgstr ""
+
+#: inc/admin_page_settings.php:501
+msgid ""
+"Form attributes: form_confirm_warning, form_password_label, "
+"form_confirm_button, landing_url"
+msgstr ""
+
+#: inc/admin_page_settings.php:507
+msgid "Multisite"
+msgstr ""
+
+#: inc/admin_page_settings.php:507
+msgid "Want the same settings across all network sites?"
+msgstr ""
+
+#: inc/admin_page_settings.php:507
+msgid "The setting below applies only to WordPress Multisite installations."
+msgstr ""
+
+#: inc/admin_page_settings.php:510
+msgid "Delete From Network"
+msgstr ""
+
+#: inc/admin_page_settings.php:510
+msgid ""
+"Check to delete users from the entire Network. Uncheck to delete users from "
+"only the current Site."
+msgstr ""
+
+#: inc/admin_page_settings.php:516
+msgid "Miscellaneous"
+msgstr ""
+
+#: inc/admin_page_settings.php:519
+msgid "Delete Comments"
+msgstr ""
+
+#: inc/admin_page_settings.php:519
+msgid ""
+"Delete all comments by users when they delete themselves. IF MULTISITE, only "
+"comments on the current Site are deleted, other Network Sites remain "
+"unaffected."
+msgstr ""
+
+#: inc/admin_page_settings.php:525
+msgid "E-mail Notification"
+msgstr ""
+
+#: inc/admin_page_settings.php:525
+#, php-format
+msgctxt "%s = plugin name, WordPress admin email address"
+msgid ""
+"Send a text email with deletion details each time a user deletes themselves "
+"using %s. This will go to the site administrator email (i.e. %s), the same "
+"email address used for new user notification."
+msgstr ""
+
+#: inc/admin_page_settings.php:533
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin_page_settings.php:533
+msgid "Restore Default Settings"
+msgstr ""
+
+#: inc/admin_page_settings.php:533
+msgctxt "JavaScript confirm for button that restores default settings"
+msgid ""
+"WARNING!\\n\\nALL CHANGES WILL BE LOST.\\n\\nAre you sure you want to "
+"Restore Default Settings?"
+msgstr ""
+
+#: inc/delete_user.php:101
+#, php-format
+msgctxt "%s = site name"
+msgid "[%s] Deleted User Notification"
+msgstr ""
+
+#: inc/delete_user.php:103
+#, php-format
+msgctxt "%s = site name"
+msgid "Deleted user on your site %s"
+msgstr ""
+
+#: inc/delete_user.php:104
+#, php-format
+msgid "User deleted from %d total Network Sites."
+msgstr ""
+
+#: inc/delete_user.php:105
+msgid "Username"
+msgstr ""
+
+#: inc/delete_user.php:106
+msgid "E-mail"
+msgstr ""
+
+#: inc/delete_user.php:107
+msgid "Role"
+msgstr ""
+
+#: inc/delete_user.php:108
+msgid "First Name"
+msgstr ""
+
+#: inc/delete_user.php:108 inc/delete_user.php:109
+msgid "(empty)"
+msgstr ""
+
+#: inc/delete_user.php:109
+msgid "Last Name"
+msgstr ""
+
+#: inc/delete_user.php:110
+#, php-format
+msgctxt "%s = date user registered with the Network or Site"
+msgid "Registered: %s"
+msgstr ""
+
+#: inc/delete_user.php:111
+#, php-format
+msgctxt "%s = plugin name"
+msgid "This user deleted themselves using the WordPress plugin %s"
+msgstr ""
+
+#: inc/delete_user.php:112
+#, php-format
+msgid "%d Post(s)"
+msgstr ""
+
+#: inc/delete_user.php:115
+#, php-format
+msgid "%d Link(s)"
+msgstr ""
+
+#: inc/delete_user.php:118
+#, php-format
+msgid "%d Comment(s)"
+msgstr ""
+
+#: inc/shortcode.php:11 inc/your_profile.php:12
+msgid ""
+"The delete option provided by the Delete Me plugin is not visible to "
+"Administrators."
+msgstr ""
+
+#: inc/shortcode.php:27
+#, no-php-format
+msgctxt "JavaScript confirm user deletion"
+msgid ""
+"WARNING!\\n\\nAre you sure you want to delete user %username% from %sitename"
+"%?"
+msgstr ""
+
+#: inc/upgrade.php:24
+#, php-format
+msgid ""
+"Plugin %1$s updated to version %2$s. See <a href=\"%3$s\">Changelog</a> for "
+"details."
+msgstr ""

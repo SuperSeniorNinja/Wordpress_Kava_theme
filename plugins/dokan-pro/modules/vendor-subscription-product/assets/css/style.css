@@ -1,0 +1,12 @@
+.subscription-price {
+    margin: 0px 0px 15px;
+}
+.subscription-price .dokan-input-group {
+    width: 31.33% !important;
+    margin-right: 2%;
+    float: left;
+}
+
+.subscription-price .dokan-input-group:last-child {
+    margin-right: 0px;
+}

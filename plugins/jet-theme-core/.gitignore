@@ -1,0 +1,7 @@
+*.log
+node_modules
+.sass-cache
+.idea
+package-lock.json
+prepros.cfg
+.DS_Store

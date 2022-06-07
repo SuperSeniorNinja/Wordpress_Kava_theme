@@ -1,0 +1,93 @@
+#kava-settings-page {
+	visibility: hidden;
+
+	&.is-mounted {
+		visibility: visible;
+	}
+}
+
+.kava-settings-page {
+	max-width: 1440px;
+	margin: 25px 15px 0 15px;
+
+	.cx-vui-tabs-panel {
+		> .cx-vui-subtitle {
+			margin-top: 20px;
+			padding: 20px;
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	&__title-wrap {
+		margin-top: 20px;
+		padding: 20px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	&__group-controls {
+		display: flex;
+		flex-flow: row wrap;
+		padding: 0 20px;
+
+		& + .cx-vui-component {
+			margin-top: 20px;
+		}
+	}
+
+	&__group-control {
+		width: 33.3333%;
+
+		@media screen and (max-width: 1200px) {
+			width: 50%;
+		}
+
+		@media screen and (max-width: 782px) {
+			width: 100%;
+		}
+
+		.cx-vui-component {
+			padding: 10px 0;
+		}
+	}
+
+	.kava-settings-page__group-controls + .kava-settings-page__title-wrap,
+	.kava-settings-page__group-controls + .cx-vui-component {
+		border-top: 1px solid #ececec;
+	}
+
+}
+
+#adminmenu {
+	.toplevel_page_kava-extra-settings {
+
+		&.current {
+			.wp-menu-image {
+				img {
+					filter: brightness(0.2);
+				}
+			}
+		}
+
+		div.wp-menu-image {
+			position: static;
+			width: 45px;
+
+			.folded & {
+				width: 35px;
+			}
+
+			@media (min-width: 783px) and (max-width: 960px) {
+				.auto-fold & {
+					width: 35px;
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,24 @@
+.jet-woo-product-gallery-grid {
+	.jet-woo-product-gallery__image {
+		img {
+			width: 100%;
+		}
+	}
+
+	&.col-row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -10px;
+		margin-right: -10px;
+
+		> div[ class *= "item" ] {
+			position: relative;
+			min-height: 1px;
+			padding: 10px;
+			box-sizing: border-box;
+			width: 100%;
+			max-width: calc(100%/var(--columns));
+			flex: 0 0 calc(100%/var(--columns));
+		}
+	}
+}

@@ -1,0 +1,545 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/createItem/index.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.create-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create-item-header {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.3em;
+  letter-spacing: 2px;
+  text-align: inherit;
+  color: #222222;
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.create-item-description {
+  max-width: 600px;
+  text-align: center;
+}
+.create-item-create-or-add {
+  display: flex;
+  width: 768px;
+  margin-top: 20px;
+}
+.create-item-create-or-add .nanoverse-modal-content {
+  width: 30%;
+  padding: 35px;
+}
+.create-item-action-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #EAEFF5;
+  box-shadow: 0px 3px 9px 0px rgba(158, 158, 158, 0.2);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 15px 15px 15px 15px;
+  padding: 45px 25px 35px 25px;
+  width: 50%;
+}
+.create-item-action-box-image-container {
+  width: 21%;
+  margin-bottom: 15px;
+}
+.create-item-action-box-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  text-align: center;
+}
+
+.elementor-divider-separator {
+  border-top: 5px solid #0C5ADB33 !important;
+}
+
+.add-nft-to-wallet {
+  display: flex;
+  flex-direction: column;
+}
+.add-nft-to-wallet-form {
+  display: flex;
+  flex-direction: column;
+}
+.add-nft-to-wallet-label {
+  margin-bottom: 20px;
+}
+.add-nft-to-wallet-label-file {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-nft-to-wallet-label-file-label {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  background-color: #0C5ADB;
+  border-radius: 3px;
+  color: #fff;
+  fill: #fff;
+  padding: 12px 12px;
+  text-align: center;
+  cursor: pointer;
+}
+.add-nft-to-wallet-label-file-input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.add-nft-to-wallet-label-error {
+  color: red;
+}
+.add-nft-to-wallet-label .add-nft-to-wallet-text-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: 1px solid #ebeced;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: normal;
+}
+.add-nft-to-wallet-label .add-nft-to-wallet-text-input:focus {
+  outline: none;
+  box-shadow: 0 5px 32px rgba(103, 122, 141, 0.17);
+}
+.add-nft-to-wallet-description {
+  text-align: center;
+  color: #777777;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.add-nft-to-wallet-submit {
+  background-color: #0C5ADB !important;
+  color: #FFFFFF !important;
+  border-radius: 5px 5px 5px 5px !important;
+  display: block !important;
+  width: 100% !important;
+  font-family: "Mulish", Sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+.add-nft-to-wallet-submit:hover {
+  background-color: #0C5ADB !important;
+  color: #FFFFFF !important;
+}
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/common/modal/index.css ***!
+  \********************************************************************************************************************************************************************************/
+.nanoverse-modal {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nanoverse-modal-close {
+    display: none;
+    cursor: pointer;
+}
+.nanoverse-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 15px 0 #eeeeee;
+}
+.nanoverse-modal-wallets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+.nanoverse-modal-wallet {
+    height: 230px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    flex-direction: column;
+}
+.nanoverse-modal-wallet:hover {
+    border-width: 1px 1px 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 15px 0 #eeeeee;
+}
+.nanoverse-modal-header {
+    font-size: 20px;
+}
+.nanoverse-modal-wallet-connected {
+    position: absolute;
+    color: #4cbb17;
+    top: 160px;
+    left: 120px;
+}
+.nanoverse-modal-account {
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.nanoverse-modal-cancel {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.elementor-button-content-wrapper {
+    cursor: pointer;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/explorer/index.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+#w3a-modal {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.explorer-spinner {
+  margin-top: 30px;
+  width: 1300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.explorer-header {
+  color: #222222;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+}
+.explorer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explorer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .explorer-content {
+    max-width: 900px;
+  }
+}
+@media (min-width: 1100px) {
+  .explorer-content {
+    align-items: start;
+    max-width: 1000px;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1200px) {
+  .explorer-content {
+    align-items: start;
+    max-width: 1220px;
+    flex-direction: row;
+  }
+}
+.explorer-filter {
+  width: 300px;
+  margin-top: 10px;
+}
+@media (min-width: 1100px) {
+  .explorer-filter {
+    margin-right: 20px;
+  }
+}
+.explorer-filter-chains {
+  border-width: 1px 1px 1px 1px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 #eeeeee;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.explorer-filter-chains-header {
+  color: #111111;
+  font-size: 20px;
+  line-height: 2.8em;
+}
+.explorer-filter-chains-chain {
+  font-size: 14px;
+  color: #4C5866;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.explorer-filter-chains-chain-input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.explorer-nfts {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media (min-width: 1100px) {
+  .explorer-nfts {
+    flex-direction: row;
+  }
+}
+.explorer-nft {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 #eeeeee;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.explorer-nft-image {
+  width: 200px;
+  height: 200px;
+}
+.explorer-nft-name {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.4em;
+  text-overflow: ellipsis;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/vendorSearch/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.search-input-container {
+  position: relative;
+}
+
+.search-input-container i {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  color: gray;
+}
+
+.search-input {
+  padding: 12px 40px !important;
+  display: inline-block;
+  box-sizing: border-box !important;
+  margin: 0;
+  border: none !important;
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input::-moz-placeholder {
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input:-ms-input-placeholder {
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input::placeholder {
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+.search-input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: "Mulish", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  fill: #222222;
+  color: #222222;
+}
+
+.vendor-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.dropdown-content a {
+  display: flex !important;
+  justify-content: start;
+  align-items: center;
+}
+
+.header-subsection {
+  padding: 12px 16px;
+}
+
+.down-icon-search {
+  margin-left: 6px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/mobileMenu/index.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+#w3a-modal {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.header-menu-items-mobile {
+  display: none;
+}
+.header-menu-items-mobile-opened {
+  display: flex;
+}
+@media (min-width: 1100px) {
+  .header-menu-items-mobile {
+    display: none;
+  }
+}
+.header-menu-items-mobile-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/formBilling/index.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+#w3a-modal {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.nanoverse-address {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nanoverse-address-metamask-icon {
+  height: 50px;
+  cursor: pointer;
+  padding: 5px;
+}
+.nanoverse-address-metamask-icon:hover {
+  border-width: 1px 1px 1px 1px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 #eeeeee;
+}
+.nanoverse-address-input {
+  width: 80% !important;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/loginButton/index.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.login-button {
+  cursor: pointer;
+}
+
+.modal-logged-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.modal-logged-content-account {
+  margin: 20px;
+}
+.modal-logged-content-logout {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=index.css.map*/

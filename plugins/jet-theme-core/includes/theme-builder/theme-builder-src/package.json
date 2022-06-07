@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service build --no-clean --mode development --watch",
+    "build": "vue-cli-service build --no-clean"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0",
+    "vue3-click-away": "^1.2.1",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "floating-vue": "^2.0.0-beta.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vuepress-plugin-cursor-effects": "^1.1.2"
+  }
+}

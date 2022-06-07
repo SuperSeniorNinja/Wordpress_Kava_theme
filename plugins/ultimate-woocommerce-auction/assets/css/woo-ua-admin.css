@@ -1,0 +1,16 @@
+.auction_tab_options a:before {background: url(../images/woo_ua_auction_admin.png) center no-repeat; display: inline-block !important; width: 17px; height: 17px; content: ' ' !important;}
+.woo_ua-table-responsive{min-height:.01%;overflow-x:auto;}
+.woo_ua-table{width:100%;max-width:100%;margin-bottom:20px;border-collapse:collapse;}
+.woo_ua-table > tbody > tr > th{padding:8px;line-height:1.42857143;vertical-align:top;background-color:#eeeeee;}
+.woo_ua-table > tbody > tr > td{padding:8px;line-height:1.42857143;vertical-align:top;}
+.woo_ua-table-bordered{border:1px solid #ddd;}
+.woo_ua-table-bordered > tbody > tr > th{border:1px solid #ddd;}
+.woo_ua-table-bordered > tbody > tr > td{border:1px solid #ddd;}
+
+.woo_admin_current_time {margin: 20px 0;padding-left: 12px;}
+.regular-number {margin: 0 10px;}
+
+table.wp-list-table .column-admin_auction_status {
+    text-align: left!important;
+    width: 12ch;
+}

@@ -1,0 +1,36 @@
+/*!
+Theme Name: Kava
+Theme URI: https://crocoblock.com/kava/
+Author: Crocoblock
+Author URI: https://crocoblock.com/
+Description: Kava is a perfectly balanced clean WordPress theme, fully compatible with Elementor. It is perfect for blogging, providing lots of blog variations and even more style settings, allowing everyone to customize its appearance: change logo, add sidebars and display widgets, select color schemes, etc. One of its main features is  full responsiveness, so it will look great on all kinds of devices. Kava theme works just fine with WooCommerce plugin, and will be a great choice for creating a web store. It possesses immaculate typography, and its stylish appearance will satisfy even the most demanding. Kava theme is easy-to-use and customize, providing the best experience for everyone.
+Version: 2.1.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: kava
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Kava is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Base Elements
+--------------------------------------------------------------*/
+@import "elements/base";
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "grid/grid";

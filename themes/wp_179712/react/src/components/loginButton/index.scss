@@ -1,0 +1,17 @@
+.login-button {
+  cursor: pointer;
+}
+
+.modal-logged-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &-account {
+    margin: 20px;
+  }
+
+  &-logout {
+    margin: 20px;
+  }
+}

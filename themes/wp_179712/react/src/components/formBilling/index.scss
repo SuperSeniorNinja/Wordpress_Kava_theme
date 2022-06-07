@@ -1,0 +1,22 @@
+@import "../../mixins";
+
+.nanoverse-address {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+
+  &-metamask-icon {
+    height: 50px;
+    cursor: pointer;
+    padding: 5px;
+
+    &:hover {
+      @include border-radius-effect();
+    }
+  }
+
+  &-input {
+    width: 80% !important;
+  }
+}

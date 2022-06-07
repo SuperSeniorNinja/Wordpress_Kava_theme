@@ -1,0 +1,326 @@
+# Copyright (C) 2021 weDevs
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Conversion Tracking 2.0.9\n"
+"Report-Msgid-Bugs-To: https://example.com\n"
+"POT-Creation-Date: 2021-10-06 11:06:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: conversion-tracking.php:279
+msgid "Get PRO"
+msgstr ""
+
+#: conversion-tracking.php:282
+msgid "Docs"
+msgstr ""
+
+#: conversion-tracking.php:283
+msgid "Settings"
+msgstr ""
+
+#: conversion-tracking.php:296
+msgid ""
+"<b>Woocommerce conversion tracking</b> requires <a target=\"_blank\" "
+"href=\"https://wordpress.org/plugins/woocommerce/\">Woocommerce</a>"
+msgstr ""
+
+#: conversion-tracking.php:329
+msgid ""
+"Reach beyond your imagination in creating web pages. <strong> Try Happy "
+"Addons for Elementor to shape your dream.</strong> 😊"
+msgstr ""
+
+#: includes/class-admin.php:49
+msgid "Conversion Tracking"
+msgstr ""
+
+#: includes/class-admin.php:73
+msgid "Integrations"
+msgstr ""
+
+#: includes/class-ajax.php:54
+msgid "Settings has been saved successfully!"
+msgstr ""
+
+#: includes/class-ajax.php:75
+msgid "ERROR: Error fetching plugin information: %s"
+msgstr ""
+
+#: includes/class-ajax.php:100
+msgid "Successfully installed and activate,"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:39
+msgid "Facebook Product Catalog (Pro)"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:44
+msgid "Settings (Pro)"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:59
+msgid "View Product"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:64
+msgid "View Product Category"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:69
+msgid "Search"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:74
+msgid "Add To Wishlist"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:90
+msgid "Add to Cart "
+msgstr ""
+
+#: includes/class-integration-pro-features.php:95
+#: includes/class-integration-pro-features.php:111
+#: includes/integrations/class-integration-facebook.php:47
+msgid "Complete Registration"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:126
+msgid "Premium Features"
+msgstr ""
+
+#: includes/class-integration-pro-features.php:138
+msgid "Get Premium"
+msgstr ""
+
+#: includes/integration.php:13
+msgid "Conversion Tracking Pixel"
+msgstr ""
+
+#: includes/integration.php:14
+msgid ""
+"Various conversion tracking pixel integration like Facebook Ad, Google "
+"AdWords, etc. Insert your scripts codes here:"
+msgstr ""
+
+#: includes/integration.php:43
+msgid "Tags Position"
+msgstr ""
+
+#: includes/integration.php:44
+msgid "Select which position in your page you want to insert the tag"
+msgstr ""
+
+#: includes/integration.php:50 includes/integration.php:52
+#. translators: %s: tag name
+msgid "Inside %s tag"
+msgstr ""
+
+#: includes/integration.php:57 includes/integration.php:67
+#: includes/integration.php:80
+#. translators: %s: page name
+msgid "Tags for %s"
+msgstr ""
+
+#: includes/integration.php:58
+msgid "View Cart"
+msgstr ""
+
+#: includes/integration.php:60
+msgid "Adds script on the cart page"
+msgstr ""
+
+#: includes/integration.php:68
+#: includes/integrations/class-integration-custom.php:31
+msgid "Successful Order"
+msgstr ""
+
+#: includes/integration.php:70
+msgid "Adds script on the purchase success page"
+msgstr ""
+
+#: includes/integration.php:72 includes/integration.php:139
+#. translators: %s: dynamic values
+msgid "You can use dynamic values: %s"
+msgstr ""
+
+#: includes/integration.php:81
+msgid "User Registration"
+msgstr ""
+
+#: includes/integration.php:83
+msgid "Adds script on the successful registraion page"
+msgstr ""
+
+#: includes/integration.php:134
+msgid "Conversion Tracking Code"
+msgstr ""
+
+#: includes/integration.php:136
+msgid "Insert conversion tracking code for this product."
+msgstr ""
+
+#: includes/integrations/class-integration-custom.php:13
+#: includes/views/settings.php:155
+msgid "Custom"
+msgstr ""
+
+#: includes/integrations/class-integration-custom.php:34
+#. translators: %s: dynamic values
+msgid "Put your JavaScript tracking scripts here. You can use dynamic values: %s"
+msgstr ""
+
+#: includes/integrations/class-integration-custom.php:41
+msgid "Registration Scripts"
+msgstr ""
+
+#: includes/integrations/class-integration-custom.php:43
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Learn more</a> about setting up custom "
+"scripts."
+msgstr ""
+
+#: includes/integrations/class-integration-facebook.php:13
+#: includes/views/settings.php:150
+msgid "Facebook"
+msgstr ""
+
+#: includes/integrations/class-integration-facebook.php:33
+msgid "Pixel ID"
+msgstr ""
+
+#: includes/integrations/class-integration-facebook.php:36
+msgid "Find the Pixel ID from <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: includes/integrations/class-integration-facebook.php:41
+#: includes/integrations/class-integration-google.php:38
+#: includes/integrations/class-integration-twitter.php:31
+msgid "Events"
+msgstr ""
+
+#: includes/integrations/class-integration-facebook.php:44
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/integrations/class-integration-facebook.php:45
+msgid "Initiate Checkout"
+msgstr ""
+
+#: includes/integrations/class-integration-facebook.php:46
+#: includes/integrations/class-integration-google.php:43
+#: includes/integrations/class-integration-twitter.php:36
+msgid "Purchase"
+msgstr ""
+
+#: includes/integrations/class-integration-google.php:13
+#: includes/views/settings.php:152
+msgid "Google Ads"
+msgstr ""
+
+#: includes/integrations/class-integration-google.php:30
+msgid "Account ID"
+msgstr ""
+
+#: includes/integrations/class-integration-google.php:33
+msgid ""
+"Provide the Google Ads Account ID. Usually it's something like "
+"<code>AW-123456789</code>, <a href=\"%s\" target=\"_blank\">learn more</a>."
+msgstr ""
+
+#: includes/integrations/class-integration-twitter.php:13
+#: includes/views/settings.php:151
+msgid "Twitter"
+msgstr ""
+
+#: includes/integrations/class-integration-twitter.php:39
+msgid ""
+"Find the Universal Tag ID from <a href=\"%s\" target=\"_blank\">here</a>, "
+"navigate to Tools &rarr; Conversion Tracking."
+msgstr ""
+
+#: includes/views/settings.php:5
+msgid "Integration Settings"
+msgstr ""
+
+#: includes/views/settings.php:139
+msgid "Save Changes"
+msgstr ""
+
+#: includes/views/settings.php:146
+msgid "Documentation"
+msgstr ""
+
+#: includes/views/settings.php:149
+msgid "Getting Started"
+msgstr ""
+
+#: includes/views/settings.php:153
+msgid "Perfect Audience"
+msgstr ""
+
+#: includes/views/settings.php:154
+msgid "Microsoft Advertising"
+msgstr ""
+
+#: lib/appsero/Insights.php:369
+msgid ""
+"Want to help make <strong>%1$s</strong> even more awesome? Allow %1$s to "
+"collect non-sensitive diagnostic data and usage information."
+msgstr ""
+
+#: lib/appsero/Insights.php:374
+msgid "what we collect"
+msgstr ""
+
+#: lib/appsero/Insights.php:381
+msgid "Allow"
+msgstr ""
+
+#: lib/appsero/Insights.php:382
+msgid "No thanks"
+msgstr ""
+
+#: lib/appsero/Insights.php:747
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+
+#: lib/appsero/Insights.php:762
+msgid "I rather wouldn't say"
+msgstr ""
+
+#: lib/appsero/Insights.php:763
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: lib/appsero/Insights.php:764
+msgid "Cancel"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Conversion Tracking"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wedevs.com/woocommerce-conversion-tracking/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds various conversion tracking codes to cart, checkout, registration "
+"success and product page on WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "weDevs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wedevs.com/?utm_source=ORG_Author_URI_WCCT"
+msgstr ""

@@ -1,0 +1,173 @@
+/*
+.dokan-analytics-content .dokan-analytics-area h1 {
+  margin: 0px 0px 20px;
+}
+.dokan-analytics-content .dokan-analytics-area .dokan-analytics-wrap {
+  margin-top: 20px;
+}
+.dokan-analytics-content .dokan-analytics-area .dokan-analytics-wrap .report-left {
+  width: 28%;
+  margin-right: 10px;
+}
+.dokan-analytics-content .dokan-analytics-area .dokan-analytics-wrap .report-right {
+  width: 68%;
+}
+.dokan-analytics-content .dokan-analytics-area ul.chart-legend {
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #EDEDED;
+}
+.dokan-analytics-content .dokan-analytics-area ul.chart-legend li {
+  color: #aaa;
+  padding: 13px 18px;
+  border-bottom: 1px solid #EDEDED;
+  font-weight: normal;
+  font-size: 13px;
+}
+.dokan-analytics-content .dokan-analytics-area ul.chart-legend li strong {
+  display: block;
+  color: #464646;
+  font-size: 30px;
+  font-weight: normal;
+}
+.dokan-analytics-content .dokan-analytics-area .report-filter {
+  margin-top: 15px;
+}
+.dokan-analytics-content .dokan-analytics-area .report-filter select {
+  border: 1px solid #EDEDED;
+  padding: 2px 5px;
+}
+.dokan-analytics-content .dokan-analytics-area table.table {
+  margin-top: 15px;
+}
+.dokan-analytics-content .dokan-analytics-area table.table .progress {
+  margin-bottom: 0;
+}
+.dokan-analytics-content .dokan-analytics-area .dokan-analytics-main h3 {
+  margin: 0 0 15px 0;
+}
+.dokan-analytics-content .dokan-analytics-area .dokan-analytics-main .chart-placeholder.main {
+  height: 435px;
+}
+.dokan-analytics-content .dokan-analytics-area .chart-tooltip {
+  position: absolute;
+  display: none;
+  line-height: 1;
+  background: #333;
+  color: #fff;
+  padding: 3px 5px;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+*/
+/*.analytify_status_box_wraper {
+    border: 1px solid #e2e5e8;
+    margin-bottom: 20px;
+    background: #fff;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: #848484;
+    font-size: 14px;
+}
+.analytify_status_box_wraper * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.analytify_status_header {
+    border-bottom: 1px solid #e2e5e8;
+    background: #f9fafa;
+    padding: 20px 20px;
+    position: relative;
+    text-align: left;
+}
+.analytify_wraper h3 {
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 400;
+}
+.analytify_status_footer {
+    border-top: 1px solid #e2e5e8;
+    background: #f9fafa;
+    padding: 15px 20px;
+}
+.analytify_general_status_boxes_wraper {
+    padding-bottom: 20px;
+    text-align: left;
+}
+.analytify_general_status_box, .analytify_general_status_boxes {
+    width: calc(33% - 24px);
+    margin: 20px 0px 0px 20px;
+    border: 1px solid #e2e5e8;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 20px 20px 50px;
+    vertical-align: top;
+    font-size: 14px;
+}
+.analytify_general_status_box h4, .analytify_general_status_boxes h4 {
+    position: relative;
+    font-weight: 700;
+    color: #848484;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.analytify_general_status_box h4:after, .analytify_general_status_boxes h4:after {
+    display: block;
+    max-width: 100px;
+    height: 1px;
+    background: #e2e5e8;
+    content: "";
+    margin: 7px auto 10px;
+}
+.analytify_general_stats_value {
+    font-size: 48px;
+    color: #444444;
+    font-weight: 100;
+}
+.analytify_wraper p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+.analytify_general_status_footer_info {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #f2f2f2;
+    text-align: center;
+    border-top: 1px solid #e2e5e8;
+    width: 100%;
+    padding: 10px;
+    font-size: 11px;
+    color: #00c853;
+}
+.analytify_status_footer p {
+    position: relative;
+    display: inline-block;
+    padding: 3px 0px 3px 37px;
+}
+.analytify_status_footer p span {
+    color: #fa5825;
+}
+@media screen and (max-width: 768px) {
+    .analytify_general_status_box, .analytify_general_status_boxes {
+        width: calc(50% - 24px);
+    }
+    .analytify_general_status_boxes_wraper {
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .analytify_general_status_box, .analytify_general_status_boxes {
+        width: calc(100% - 24px);
+    }
+}*/

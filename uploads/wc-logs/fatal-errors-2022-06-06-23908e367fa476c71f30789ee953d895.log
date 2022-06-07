@@ -1,0 +1,18 @@
+2022-06-06T19:40:40+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Auction::get_auction_closed() in /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions.php:1486
+Stack trace:
+#0 /home/customer/www/odyssea.io/public_html/wp-includes/class-wp-hook.php(307): WooCommerce_simple_auction->auction_is_purchasable(true, Object(WC_Product_Auction))
+#1 /home/customer/www/odyssea.io/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(true, Array)
+#2 /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1612): apply_filters('woocommerce_is_...', true, Object(WC_Product_Auction))
+#3 /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#4 /home/customer/www/odyssea.io/public_html/wp-includes/class-wp-hook.php(307): WC_Cart_Session->get_cart_from_session('')
+#5 /home/customer/www/odyssea.io/public_html/wp-includes/c in /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions.php on line 1486
+
+2022-06-06T19:40:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Auction::get_auction_closed() in /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions.php:1486
+Stack trace:
+#0 /home/customer/www/odyssea.io/public_html/wp-includes/class-wp-hook.php(307): WooCommerce_simple_auction->auction_is_purchasable(true, Object(WC_Product_Auction))
+#1 /home/customer/www/odyssea.io/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters(true, Array)
+#2 /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1612): apply_filters('woocommerce_is_...', true, Object(WC_Product_Auction))
+#3 /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#4 /home/customer/www/odyssea.io/public_html/wp-includes/class-wp-hook.php(307): WC_Cart_Session->get_cart_from_session('')
+#5 /home/customer/www/odyssea.io/public_html/wp-includes/c in /home/customer/www/odyssea.io/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions.php on line 1486
+

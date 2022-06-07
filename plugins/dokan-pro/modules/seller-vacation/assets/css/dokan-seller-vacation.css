@@ -1,0 +1,66 @@
+/**
+ * Added some styles in frontend
+ */
+
+.show_if_go_vacation, .datewise_close_store{
+	display: none;
+}
+
+.post-status .vacation {
+	background-color: rgb(167, 77, 64);
+}
+
+.show_if_go_vacation .dokan-w5 {
+    text-align: left;
+}
+
+/*- Multiple seller vacation dates -*/
+#dokan-seller-vacation-message {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#dokan-seller-vacation-vacation-dates button[disabled] {
+    opacity: 0.6;
+}
+
+#dokan-seller-vacation-list-table th {
+    padding-top: 0;
+}
+
+.dokan-seller-vacation-list-action {
+    text-align: center;
+}
+
+.dokan-seller-vacation-list-action .dokan-btn {
+    padding: 1px 5px;
+    margin: 0 3px;
+    background: none;
+    border: 0;
+}
+
+.dokan-seller-vacation-list-action {
+    opacity: 0;
+    padding: 0 8px;
+    cursor: pointer;
+    -webkit-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+#dokan-seller-vacation-list-table > tbody > tr:hover .dokan-seller-vacation-list-action {
+    opacity: 1;
+}
+
+#dokan-seller-vacation-settings.working #dokan-seller-vacation-list-table > tbody > tr:hover .dokan-seller-vacation-list-action {
+    opacity: 0;
+}
+
+.dokan-seller-vacation-list-from,
+.dokan-seller-vacation-list-to {
+    white-space: nowrap;
+}
+
+#dokan-seller-vacation-settings {
+    position: relative;
+}

@@ -1,0 +1,16 @@
+/**************** Premium Google Maps ******************/
+/*******************************************************/
+.premium-maps-info-container {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.premium-maps-info-title,
+.premium-maps-info-desc {
+  margin: 0;
+  padding: 0; }
+
+.premium-maps-container .gm-style-iw {
+  text-align: center; }
+
+.premium-maps-container .gm-style img {
+  max-width: none !important; }

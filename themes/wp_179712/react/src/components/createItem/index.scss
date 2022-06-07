@@ -1,0 +1,156 @@
+.create-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-header {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+    text-align: inherit;
+    color: #222222;
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  &-description {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  &-create-or-add {
+    display: flex;
+    width: 768px;
+    margin-top: 20px;
+
+    .nanoverse-modal-content {
+      width: 30%;
+      padding: 35px;
+    }
+  }
+
+  &-action-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #EAEFF5;
+    box-shadow: 0px 3px 9px 0px rgb(158 158 158 / 20%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 15px 15px 15px 15px;
+    padding: 45px 25px 35px 25px;
+    width: 50%;
+
+    &-image-container {
+      width: 21%;
+      margin-bottom: 15px;
+    }
+
+    &-text {
+      font-size: 20px;
+      font-weight: 700;
+      color: rgb(34, 34, 34);
+      text-align: center;
+    }
+
+
+  }
+}
+
+.elementor-divider-separator {
+  border-top: 5px solid #0C5ADB33 !important;
+}
+
+.add-nft-to-wallet {
+  display: flex;
+  flex-direction: column;
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-label {
+    margin-bottom: 20px;
+
+    &-file {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      &-label {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        letter-spacing: 1px;
+        background-color: #0C5ADB;
+        border-radius: 3px;
+        color: #fff;
+        fill: #fff;
+        padding: 12px 12px;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      &-input {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+      }
+    }
+
+    &-error {
+      color: red;
+    }
+
+    .add-nft-to-wallet-text-input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px 12px;
+      border: 1px solid #ebeced;
+      background-color: #fff;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: normal;
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 5px 32px rgb(103 122 141 / 17%);
+      }
+    }
+  }
+
+
+  &-description {
+    text-align: center;
+    color: #777777;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &-submit {
+    background-color: #0C5ADB !important;
+    color: #FFFFFF !important;
+    border-radius: 5px 5px 5px 5px !important;
+    display: block !important;
+    width: 100% !important;
+    font-family: "Mulish", Sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+
+    &:hover {
+      background-color: #0C5ADB !important;
+      color: #FFFFFF !important;
+    }
+  }
+}
+

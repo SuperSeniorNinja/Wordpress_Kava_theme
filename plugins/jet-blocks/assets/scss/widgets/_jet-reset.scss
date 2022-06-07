@@ -1,0 +1,38 @@
+.jet-reset {
+	label {
+		display: block;
+	}
+
+	legend {
+		border-width: 3px;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__submit {
+		margin-top: 20px;
+	}
+
+	.jet-reset__demo-messages {
+		margin: 15px 0;
+		font-size: 18px;
+		line-height: 1;
+		font-weight: 500;
+	}
+
+	&__success-message {
+		& + {
+			.jet-reset__error-message {
+				margin-top: 20px;
+			}
+		}
+	}
+}

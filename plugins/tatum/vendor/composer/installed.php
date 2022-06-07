@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '2.0.0.x-dev',
+        'version' => '2.0.0.9999999-dev',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '16c887cfcc347a03a65eb1f2f0a716b1f963c7f7',
+        'name' => '__root__',
+        'dev' => false,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '2.0.0.x-dev',
+            'version' => '2.0.0.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '16c887cfcc347a03a65eb1f2f0a716b1f963c7f7',
+            'dev_requirement' => false,
+        ),
+        'tatum/nft-maker' => array(
+            'pretty_version' => '2.0.0.x-dev',
+            'version' => '2.0.0.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tatum/nft-maker',
+            'aliases' => array(),
+            'reference' => '4c7aa2279d864d456278a11d0b8d51113e69498b',
+            'dev_requirement' => false,
+        ),
+        'tatum/utils' => array(
+            'pretty_version' => '2.0.0.x-dev',
+            'version' => '2.0.0.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tatum/utils',
+            'aliases' => array(),
+            'reference' => 'b91ad4de7d043d5e67f07dcd12128ecc42f28ce0',
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "fl-bigmug-line";
+	src: url("../../assets/fonts/fl-bigmug-line.eot");
+	src: url("../../assets/fonts/fl-bigmug-line.eot#iefix") format("embedded-opentype"),
+	url("../../assets/fonts/fl-bigmug-line.woff") format("woff"),
+	url("../../assets/fonts/fl-bigmug-line.ttf") format("truetype"),
+	url("../../assets/fonts/fl-bigmug-line.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fl-bigmug-line-ico,
+[class^="fl-bigmug-line-"]:before, [class*=" fl-bigmug-line-"]:before,
+[class^="fl-bigmug-line-"]:after, [class*=" fl-bigmug-line-"]:after {   
+	font-family: 'fl-bigmug-line';
+    font-size: inherit;
+	font-weight: 400;
+	font-style: normal;
+}

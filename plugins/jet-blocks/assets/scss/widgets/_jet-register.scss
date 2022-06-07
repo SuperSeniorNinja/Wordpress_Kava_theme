@@ -1,0 +1,32 @@
+.jet-register {
+	.rtl & {
+		text-align: right;
+	}
+	&__row {
+		padding: 0;
+		margin: 0;
+
+		&.jet-privacy-policy {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin-top: 10px;
+			margin-bottom: 10px;
+
+			.jet-register__label {
+				p {
+					margin: 0;
+				}
+			}
+		}
+	}
+	&__label {
+		display: block;
+	}
+}
+
+.jet-register-message {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #f00;
+}

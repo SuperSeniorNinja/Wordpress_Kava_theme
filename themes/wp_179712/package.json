@@ -1,0 +1,13 @@
+{
+  "name": "wp_179712",
+  "version": "1.0.0",
+  "description": "179712",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

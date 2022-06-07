@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "fl-continuous";
+  src: url("../../assets/fonts/fl-continuous.eot");
+  src: url("../../assets/fonts/fl-continuous.eot#iefix") format("embedded-opentype"),
+  url("../../assets/fonts/fl-continuous.woff") format("woff"),
+  url("../../assets/fonts/fl-continuous.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fl-continuous-ico,
+[class^="fl-continuous-"]:before, [class*=" fl-continuous-"]:before,
+[class^="fl-continuous-"]:after, [class*=" fl-continuous-"]:after {   
+  font-family: 'fl-continuous';
+  font-size: inherit;
+  font-style: normal;
+}

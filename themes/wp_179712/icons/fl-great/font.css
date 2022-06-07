@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "fl-great-icon-set";
+  src: url("../../assets/fonts/fl-great-icon-set.eot");
+  src: url("../../assets/fonts/fl-great-icon-set.eot#iefix") format("embedded-opentype"),
+  url("../../assets/fonts/fl-great-icon-set.woff") format("woff"),
+  url("../../assets/fonts/fl-great-icon-set.ttf") format("truetype"),
+  url("../../assets/fonts/fl-great-icon-set.svg") format("svg");
+  font-weight: normal; 
+  font-style: normal;
+}
+
+.fl-great-icon-set-ico,
+[class^="fl-great-icon-set-"]:before, [class*=" fl-great-icon-set-"]:before,
+[class^="fl-great-icon-set-"]:after, [class*=" fl-great-icon-set-"]:after {   
+  font-family: 'fl-great-icon-set';
+  font-size: inherit;
+  font-weight: 400;
+  font-style: normal;
+}

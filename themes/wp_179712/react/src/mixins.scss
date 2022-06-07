@@ -1,0 +1,37 @@
+// Small devices
+@mixin sm {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: 1100px) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin border-radius-effect() {
+  border-width: 1px 1px 1px 1px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px 0 #eeeeee;
+}
+
+#w3a-modal {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
